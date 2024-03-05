@@ -1,0 +1,22 @@
+<section id="seccion1">
+    @if (isLoggedIn) {
+    <p>Bienvenido, {{username}} </p>
+    <img (click)="greet()" src="https://github.com/RodLopz.png" alt="photo">
+    }
+    @else {
+    <p>¡Inicia sesión para poder ver tu curriculum!</p> 
+    <button (click)="isLoggedIn = true">Login</button>
+    }
+
+
+</section>
+
+<section id="seccion2"> 
+    @if (isLoggedIn) {      
+    <app-games (addFavoriteEvent)="getFavGame($event)" username="{{username}}"></app-games>
+
+    @if (favGame != '') {
+    <p>Tu deporte favorito es el {{favGame}}, pincha en tu imagen de usuario para redirigirte a tu curriculum</p>
+    }
+}
+</section>

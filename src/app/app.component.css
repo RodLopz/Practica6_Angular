@@ -1,0 +1,24 @@
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px; /* Ajusta el margen según sea necesario */
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff; /* Color del texto */
+    background-color: #007bff; /* Color de fondo del botón */
+    border-radius: 5px; /* Borde redondeado */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+nav ul li a:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}

@@ -1,0 +1,66 @@
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Estilos para el encabezado */
+header {
+    background: #3498db;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+/* Estilos para la sección de información personal */
+.info-personal {
+    background: #d31a1a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);
+    margin: 20px;
+}
+
+/* Estilos para la sección de reproducción de audio */
+.audio-reproduccion {
+    margin: 20px;
+}
+
+/* Estilos para la sección de video personal */
+.video-personal {
+    margin: 20px;
+}
+
+/* Estilos para las estadísticas */
+.estadisticas {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.stat {
+    background: #e74c3c;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Estilos para los enlaces de redes sociales */
+.redes-sociales a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+}
